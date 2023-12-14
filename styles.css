@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+  }
+
+  
+
+.container{ display: flex;
+    flex-direction: column;
+
+background-image: url(/Images/wallpaperflare.com_wallpaper.jpg);
+background-repeat: no-repeat;
+
+background-position: center;
+background-attachment: fixed;
+padding: 20px 0;
+}
+
+.box1{ 
+    width: 300px;
+    height: 300px;
+    align-self:center;
+    order: 1;
+    color: white;
+}
+
+.box2{ 
+    height: 300px;
+    width: 300px;
+  align-self: flex-end;
+order: 2;
+color: honeydew;}
+
+.box3{
+    width: 300px;
+    height: 300px;
+align-self: flex-start;
+order: 3;
+color: lightcyan;}
+
+.box4{ 
+     width: 300px;
+    height: 300px;
+align-self: flex-end;
+order: 4;
+ color: lightpink;}
+
+ .box5{  height: 300px;
+    width: 300px;
+align-self:flex-end;
+order: 5;
+color: lemonchiffon;}
+
+ .box6{  height: 300px;
+    width: 300px;
+align-self: flex-start;
+order: 6;
+color: paleturquoise;}
+
+ .box7{  height: 300px;
+    width: 300px;
+align-self: center;
+order: 7; color: gold;}
+
+ .box8{  height: 300px;
+    width: 300px;
+align-self: flex-end;
+order: 8;color: aquamarine;}
+
+.audiocontrols{
+    order: 9;
+    align-self: center;
+
+}
+
+.title{ align-self: center;
+    padding: 50px;
+    color: white;
+    font-style: italic;
+
+}
